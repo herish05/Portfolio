@@ -7,10 +7,10 @@ type Props={
 }
 const Navbar = ({activeSession,setActiveSession}:Props) => {
     const [isOpen,setIsOpen]=useState(false);
-    // const [activeSession,setActiveSession]=useState("home");
+   
     useEffect(()=>{
 setActiveSession("home")
-    },[])
+    },[setActiveSession])
     const scrollToSection=useCallback((sectionId:string)=>{
         const section=document.getElementById(sectionId);
         if(section){
@@ -21,7 +21,7 @@ setActiveSession("home")
     },[])
   return (
     <div className='fixed top-12 mx-auto right-6 flex flex-col gap-2.5 items-end z-50 md:right-auto md:left-1/2 md:-translate-x-1/2'>
-       <button className='bg-background card-shadow p-3 md:hidden rounded' onClick={(prev)=>setIsOpen(!isOpen)}>
+       <button className='bg-background card-shadow p-3 md:hidden rounded' onClick={()=>setIsOpen(!isOpen)}>
         <img className="hidden dark:block" src="/menu_icon_dark.svg" alt="menu icon"/>
        </button>
        <nav className={cn("bg-background md:block rounded p-3 card-shadow duration-300 ease-in-out",{

@@ -1,10 +1,10 @@
 'use client'
 import React, { useCallback } from 'react'
 type Props={
-    activeSession:string
+    
     setActiveSession:(val:string)=>void
 }
-const Footer = ({activeSession,setActiveSession}:Props) => {
+const Footer = ({setActiveSession}:Props) => {
     const scrollToView=useCallback((id:string)=>{
         const section=document.getElementById(id);
         if(section){
@@ -120,7 +120,7 @@ const Footer = ({activeSession,setActiveSession}:Props) => {
             </ul>
         </div>
         <div className=' flex flex-col md:mb-40'>
-            <h3 className='text-lg text-neutral-300 uppercase tracking-[0.2rem] font-lght'>Let's Connect </h3>
+            <h3 className='text-lg text-neutral-300 uppercase tracking-[0.2rem] font-lght'>Let&apos;s Connect </h3>
        <div className='space-y-4'>
          <p className='text-sm text-neutral-400 leading-relaxed' >Feel free to reach out for collaborations or just a friendly hello</p>
          <a href="mailto:herishgarg@gmail.com" className='inline-flex items-center gap-2 text-neutral-400 hover:text-neutral-200 transition-colors duration-300 group'>

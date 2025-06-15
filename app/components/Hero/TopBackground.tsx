@@ -1,8 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import image from '@/public/top_bg_light.svg'
-
-
 const TopBackground = () => {
   return (
     <>
@@ -58,8 +55,8 @@ const TopBackground = () => {
             </div>
         </div>
     </div>
-    <img src="/top_highlight.svg" alt="top dark mode background" width={429} height={465} className='absolute top-[-229px] hidden dark:md:block left-1/2 -translate-x-1/2'/>
-     <img 
+    <Image src="/top_highlight.svg" alt="top dark mode background" width={429} height={465} className='absolute top-[-229px] hidden dark:md:block left-1/2 -translate-x-1/2'/>
+     <Image 
      src="/top_highlight.svg" 
      alt="top dark mode background" 
      width={809} height={877}

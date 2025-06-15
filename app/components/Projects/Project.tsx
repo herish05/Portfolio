@@ -27,8 +27,8 @@ const Project = ({thumbnail,title,link,description,languageIcons}: Props) => {
     <h3 className='font-semibold text-xl md:text-[22px]'>{title} </h3>
     <a href={link.url} className='flex px-[5px] py-[3px] gap-1 bg-[#b9b9b9] bg-opacity-[24%] rounded text-[14px]' target='_blank'>
     <span className='hidden md:block'>{link.label}</span>
-    <img src="/link_arrow.svg" alt="Link Arrow" className='block dark:hidden ' />
-    <img src="/link_arrow_dark.svg" alt="Link Arrow" className='hidden dark:block ' />
+    <Image src="/link_arrow.svg" alt="Link Arrow" className='block dark:hidden ' />
+    <Image src="/link_arrow_dark.svg" alt="Link Arrow" className='hidden dark:block ' />
 
     </a>
 </div>
@@ -37,7 +37,7 @@ const Project = ({thumbnail,title,link,description,languageIcons}: Props) => {
 </p>
 <div className='flex flex-row gap-[11px]'>
     {languageIcons.map((icon,iconId)=>(
-        <img src={icon} alt="Language Icon" key={iconId} height={23} width={23}/>
+        <Image src={icon} alt="Language Icon" key={iconId} height={23} width={23}/>
     ))}
 </div>
         </div>

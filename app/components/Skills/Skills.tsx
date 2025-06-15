@@ -1,5 +1,5 @@
 import React from 'react'
-// import skills from '@/data/skills.json';
+
 import SectionComponent from '../Section/SectionComponent';
 import SectionHeader from '../Section/SectionHeader';
 import Skill from './Skill';
@@ -26,6 +26,11 @@ const skills=[
      {
        name:"CSS",
         icon:SiCss3,
+        color: '#FCC624',
+    },
+     {
+       name:"TailwindCSS",
+        icon:SiTailwindcss,
         color: '#FCC624',
     },
      {
@@ -72,7 +77,7 @@ const Skills = () => {
         <SectionHeader plainText='💻This is my' hightlightText='Tech Stack'/>
         <div className='bg-card rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)] w-full px-[33px] py-[27px] flex flex-wrap flex-col md:flex-row justify-center items-center gap-[19px] md:gap-[33px]'> 
      <div className='relative flex gap-2 p-2 border-primary border rounded-lg h-[46px]'>
-<img src="/java_icon.png" alt="java icon"/>
+<Image src="/java_icon.png" alt="java icon"/>
 <p className='text-lg'>Java</p>
     </div>
             {

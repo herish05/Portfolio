@@ -8,7 +8,7 @@ export default function Home() {
    const [activeSession,setActiveSession]=useState("home");
   return (
     <div className="relative overflow-clip" id="home">
-      <Section activeSession={activeSession} setActiveSession={setActiveSession}/>
+      <Section  setActiveSession={setActiveSession}/>
       <Navbar activeSession={activeSession} setActiveSession={setActiveSession}/>
       <TopBackground/>
       </div>

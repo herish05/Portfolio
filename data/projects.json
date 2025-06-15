@@ -1,0 +1,42 @@
+[
+    {
+        "thumbnail":"/weather_thumbnail.png",
+        "title":"Weather DashBoard",
+        "link":{
+            "label":"simpleweather.app",
+            "url":"https://simpleweatherchecker.netlify.app/"
+        },
+        "description":"Developed a weather DashBoard that fetches the real time data from a public API",
+        "languageIcons":["/css_icon.png","/html_icon.png","js_icon.png"]
+    },
+    {
+        "thumbnail":"/ecommerce_thumbnail.png",
+        "title":"E-commerce Platform",
+        "link":{
+            "label":"Swarn.in",
+            "url":"https://github.com/herish05/Swarn-E-commerce"
+        },
+        "description":"Swarn Jewellers is a sleek, responsive e-commerce website built using only HTML, CSS, and JavaScript. It features a user-friendly interface to browse, view, and add premium jewellery items to the cart, offering a smooth and elegant shopping experience",
+        "languageIcons":["/css_icon.png","/html_icon.png","js_icon.png"]
+    },
+    {
+        "thumbnail":"/chat_thumbnail.png",
+        "title":"Chat DashBoard",
+        "link":{
+            "label":"chatchord.com",
+            "url":"https://github.com/herish05/Chat-Application"
+        },
+        "description":"Our React Chat App features a user-friendly and interactive interface designed for seamless communication. It enables real-time messaging using Socket.IO, ensuring instant message delivery and live updates across users. With responsive design, dynamic message rendering, and smooth UI transitions, it offers a modern and engaging chat experience.",
+        "languageIcons":["/react_icon.png","/nodejs.png","/mongodb.png"]
+    },
+    {
+        "thumbnail":"/style_thumbnail.png",
+        "title":"Style Me",
+        "link":{
+            "label":"Styleme.com",
+            "url":"https://github.com/jatin-yadav05/style-me"
+        },
+        "description":"Style-Me is an AI-powered virtual try-on project that allows users to visualize themselves in new outfits before making a purchase. By uploading their image, users can see how different clothes from e-commerce sites would look on them in real-time. Additionally, the platform enables users to design and preview their own custom fashion creations, offering a personalized and immersive shopping experience.",
+        "languageIcons":["/react_icon.png","/nodejs.png","/mongodb.png"]
+    }
+]

@@ -14,7 +14,7 @@ const Hero = () => {
             <a href="mailto:herishgarg@gmail.com" className='self-center bg-primary text-white p-2.5 rounded
             flex gap-2.5 items-center text-sm md:self-start md:text-xl md:leading-6'>
                 Let&apos;s Connect{" "}
-                <Image src="/arrow_right_icon.svg" alt="Arrow right icon"/>
+                <Image src="/arrow_right_icon.svg" alt="Arrow right icon" />
             </a>
             
         </div>
@@ -34,7 +34,7 @@ const Hero = () => {
                 className='hidden md:block w-[372px] h-[430px] absolute right-0 -z-10'
                 />
                 <Image
-                src="/hk.jpg"
+                src="/hk3.jpg"
                 alt="Profile Picture"
                 width={357}
                 height={417}

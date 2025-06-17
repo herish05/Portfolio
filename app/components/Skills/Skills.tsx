@@ -14,7 +14,7 @@ const skills=[
          color: '#00599C',
     },
      {
-        name:"Python++",
+        name:"Python",
         icon:SiPython,
          color: '#3776AB',
     },
@@ -77,7 +77,7 @@ const Skills = () => {
         <SectionHeader plainText='💻This is my' hightlightText='Tech Stack'/>
         <div className='bg-card rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)] w-full px-[33px] py-[27px] flex flex-wrap flex-col md:flex-row justify-center items-center gap-[19px] md:gap-[33px]'> 
      <div className='relative flex gap-2 p-2 border-primary border rounded-lg h-[46px]'>
-<Image src="/java_icon.png" alt="java icon"/>
+<Image src="/java_icon.png" alt="java icon" />
 <p className='text-lg'>Java</p>
     </div>
             {
@@ -108,4 +108,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Skills;

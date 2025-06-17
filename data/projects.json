@@ -7,7 +7,7 @@
             "url":"https://simpleweatherchecker.netlify.app/"
         },
         "description":"Developed a weather DashBoard that fetches the real time data from a public API",
-        "languageIcons":["/css_icon.png","/html_icon.png","js_icon.png"]
+        "languageIcons":["/css_icon.png","/html_icon.png","/js_icon.png"]
     },
     {
         "thumbnail":"/ecommerce_thumbnail.png",
@@ -17,7 +17,7 @@
             "url":"https://github.com/herish05/Swarn-E-commerce"
         },
         "description":"Swarn Jewellers is a sleek, responsive e-commerce website built using only HTML, CSS, and JavaScript. It features a user-friendly interface to browse, view, and add premium jewellery items to the cart, offering a smooth and elegant shopping experience",
-        "languageIcons":["/css_icon.png","/html_icon.png","js_icon.png"]
+        "languageIcons":["/css_icon.png","/html_icon.png","/js_icon.png"]
     },
     {
         "thumbnail":"/chat_thumbnail.png",
